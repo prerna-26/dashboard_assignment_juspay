@@ -2,6 +2,8 @@
 # Juspay Assignment
 
 This project is a frontend web page built with **ReactJS** for a Juspay assignment. It demonstrates the integration of various React components and third-party libraries, including charting and icon sets. 
+It has been hosted on vercel. You can view the live version at
+https://dashboard-assignment-juspay-mao9.vercel.app/
 
 ## Table of Contents
 
@@ -40,7 +42,6 @@ This project uses the following technologies and libraries:
 - **React** (v19.0.0) – Frontend JavaScript library for building user interfaces
 - **Chart.js** – For rendering charts
 - **React Router DOM** – For handling routing in the app
-- **Reactstrap** – For Bootstrap-based UI components
 - **Recharts** – For rendering charts and graphs
 - **FontAwesome** – For icons
 - **React Testing Library** – For unit testing
@@ -55,7 +56,7 @@ This project uses the following technologies and libraries:
 
 ## Features
 
-- A responsive UI designed with **ReactJS** and **Reactstrap**.
+- A responsive UI designed with **ReactJS**.
 - **Dynamic charts** generated using **Chart.js** and **Recharts**.
 - **Icon integration** using **FontAwesome**.
 - Routing handled by **React Router DOM**.
@@ -86,13 +87,7 @@ To run tests for your application:
 npm test
 ```
 
-## Screenshots
 
-![Home Page](./src/attributes/images/homepage.png)  
-*Screenshot of the homepage.*
-
-![Order List](./src/attributes/images/orderList.png)  
-*Screenshot of the order Lst.*
 
 ## Development
 
