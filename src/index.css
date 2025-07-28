@@ -1,0 +1,179 @@
+body {
+  margin: 0;
+  font-family: "Inter";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.app {
+  display: flex;
+}
+
+.main-page-container {
+  width: 1172px;
+}
+.smallText{
+  font-size: 12px;
+    font-weight:400 ;
+}
+
+.sidebar {
+  width: 212px;
+  height: 1206px;
+  background-color: #fff;
+  border-right: 1px solid #1c1c1c1a;
+  border-left: 1px solid #1c1c1c1a;
+  padding: 20px;
+}
+
+.progress-bar {
+  width: 15em;
+  height: 0.7em;
+}
+
+.section {
+  margin-bottom: 20px;
+}
+
+.transform{
+  transform: scale(0.9);
+    transform-origin: top left;
+    width: calc(100% / 0.9);
+    height: calc(100% / 0.9);
+    overflow: hidden;
+}
+
+
+
+
+
+
+
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  gap: 20px;
+  width: 95%;
+  padding: 20px;
+}
+
+
+.table-container {
+  width: 70%;
+  height: 25em;
+  gap: var(--16);
+  border-radius: 15px;
+  /* opacity: 0px; */
+  background-color: #f7f9fb;
+  padding-left: 1.5em;
+}
+
+
+
+
+
+.left-section {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.section-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px; /* Adds spacing between title and cards */
+  padding-bottom: 20px;
+  padding-left: 10px;
+}
+
+.upperDivCss {
+  display: flex;
+}
+
+.sales-chart-wrapper {
+  padding-left: 2em;
+  height: 3em;
+  display: grid;
+}
+
+.sales-chart-wrapper h2 {
+  margin-left: -1em;
+}
+
+
+.orders-table-data {
+  font-size: 12px;
+  font-weight: 400px;
+  min-width: 88px;
+  max-width: 240px;
+  height: 40px;
+  padding: 8px 12px;
+  gap: 8px;
+  border-bottom: 2px solid #1c1c1c0d;
+}
+
+.orders-table-header {
+  color: #1c1c1c66;
+  font-size: 12px;
+  font-weight: 400;
+  border-bottom: 2px solid #e0e0e0;
+  height: 40px;
+  padding: 8px 12px;
+  gap: 8px;
+  text-align: left;
+}
+
+.selectedTab {
+  background-color: #1c1c1c0d;
+  border-radius: 8px;
+  padding-left: 5px;
+}
+
+.checkbox {
+  border-radius: 2px;
+  outline: 2px solid #1c1c1c33;
+  accent-color: black;
+  appearance: none;
+  width: 13px;
+  height: 13px;
+  margin-left: 38px;
+}
+
+.list{
+  list-style-type: none;
+  padding: 0;
+}
+
+.sectionTitle{
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px
+}
+
+.graph-title {
+  text-align: left;
+  margin-bottom: 16px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #333;
+  padding-top: 7px;}
+
+  .middle-head-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-bottom : 1px solid #1C1C1C1A;
+  }
+
+  .nav-left {
+    display: flex;
+    align-items: center;
+  }
